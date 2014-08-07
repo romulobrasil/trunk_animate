@@ -1,0 +1,170 @@
+.anime { width: 100%; position: relative; margin-top: 72px; height: 279px; }
+		
+.cityscape {
+	width: 100%;
+	background-image: url('img/shipping-cityscape.png');
+	background-repeat: repeat-x;
+	height: 279px;
+	position: absolute;
+	top: 0;
+	background-position: 0 0;
+	-webkit-animation-name: cityscape;
+	-moz-animation-name: cityscape;
+	-ms-animation-name: cityscape;
+	-o-animation-name: cityscape;
+	animation-name: cityscape;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-duration: 14s;
+	-moz-animation-duration: 14s;
+	-ms-animation-duration: 14s;
+	-o-animation-duration: 14s;
+	animation-duration: 14s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.wheels {
+	background-image: url('img/shipping-wheels.png');
+	width: 240px;
+	height: 51px;
+	position: absolute;
+	left: 50%;
+	top: 229px;
+	margin-left: -395px;
+	background-repeat: no-repeat;
+}
+
+.truck {
+	background-image: url('img/shipping-truck.png');
+	width: 308px;
+	height: 148px;
+	position: absolute;
+	background-repeat: no-repeat;
+	left: 50%;
+	top: 105px;
+	margin-left: -431px;
+	-webkit-animation-name: truck;
+	-moz-animation-name: truck;
+	-ms-animation-name: truck;
+	-o-animation-name: truck;
+	animation-name: truck;
+	-webkit-animation-timing-function: cubic-bezier(0.25,0.46,0.45,0.94);
+	-moz-animation-timing-function: cubic-bezier(0.25,0.46,0.45,0.94);
+	-ms-animation-timing-function: cubic-bezier(0.25,0.46,0.45,0.94);
+	-o-animation-timing-function: cubic-bezier(0.25,0.46,0.45,0.94);
+	animation-timing-function: cubic-bezier(0.25,0.46,0.45,0.94);
+	-webkit-animation-duration: .8s;
+	-moz-animation-duration: .8s;
+	-ms-animation-duration: .8s;
+	-o-animation-duration: .8s;
+	animation-duration: .8s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.lamposts {
+	background-image: url('img/shipping-lamposts.png');
+	width: 100%;
+	height: 216px;
+	position: absolute;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	top: 63px;
+	-webkit-animation-name: lamposts;
+	-moz-animation-name: lamposts;
+	-ms-animation-name: lamposts;
+	-o-animation-name: lamposts;
+	animation-name: lamposts;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.road { width: 100%; height: 4px; background: #39444c; position: absolute; top: 275px; }	
+	
+/* KEYFRAMES */
+@-moz-keyframes cityscape {
+	0%   { background-position: 0 0; }
+	100% {background-position: -1398px 0; }
+}
+
+@-webkit-keyframes cityscape {
+	0%   { background-position: 0 0; }
+	100% { background-position: -1398px 0 }
+}
+
+@-ms-keyframes cityscape {
+	0%   { background-position: 0 0; }
+	100% { background-position: -1398px 0; }
+}
+
+@keyframes cityscape {
+	0%   { background-position: 0 0; }
+	100% { background-position: -1398px 0; }
+}
+
+@-moz-keyframes lamposts {
+	0%   { background-position: 0 0; }
+	100% { background-position: -697px 0; }
+}
+
+@-webkit-keyframes lamposts {
+	0%   { background-position: 0 0; }
+	100% { background-position: -697px 0; }
+}
+
+@-ms-keyframes lamposts {
+	0%   { background-position: 0 0; }
+	100% { background-position: -697px 0; }
+}
+
+@keyframes lamposts {
+	0%   { background-position: 0 0; }
+	100% { background-position: -697px 0; }
+}
+
+@-moz-keyframes truck {
+	0%   { -moz-transform: translateY(0); transform: translateY(0); }
+	50%  { -moz-transform: translateY(4px); transform: translateY(4px); }
+	100% { -moz-transform: translateY(0); transform: translateY(0); }
+}
+
+@-webkit-keyframes truck {
+	0%   { -webkit-transform: translateY(0); transform: translateY(0); }
+	50%  { -webkit-transform: translateY(4px); transform: translateY(4px); }
+	100% { -webkit-transform: translateY(0); transform: translateY(0); }
+}
+
+@-ms-keyframes truck {
+	0%   { -ms-transform: translateY(0); transform: translateY(0); }
+	50%  { -ms-transform: translateY(4px); transform: translateY(4px); }
+	100% { -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+@keyframes truck {
+	0%   { transform: translateY(0); }
+	50%  { transform: translateY(4px); }
+	100% { transform: translateY(0); }
+}
