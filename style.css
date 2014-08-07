@@ -2,7 +2,7 @@
 		
 .cityscape {
 	width: 100%;
-	background-image: url('img/shipping-cityscape.png');
+	background-image: url('http://romulobrasil.com/img/shipping-cityscape.png');
 	background-repeat: repeat-x;
 	height: 279px;
 	position: absolute;
@@ -31,7 +31,7 @@
 }
 
 .wheels {
-	background-image: url('img/shipping-wheels.png');
+	background-image: url('http://romulobrasil.com/img/shipping-wheels.png');
 	width: 240px;
 	height: 51px;
 	position: absolute;
@@ -42,7 +42,7 @@
 }
 
 .truck {
-	background-image: url('img/shipping-truck.png');
+	background-image: url('http://romulobrasil.com/img/shipping-truck.png');
 	width: 308px;
 	height: 148px;
 	position: absolute;
@@ -73,7 +73,7 @@
 }
 
 .lamposts {
-	background-image: url('img/shipping-lamposts.png');
+	background-image: url('http://romulobrasil.com/img/shipping-lamposts.png');
 	width: 100%;
 	height: 216px;
 	position: absolute;
