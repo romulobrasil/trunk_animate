@@ -1,8 +1,8 @@
-.anime { width: 100%; position: relative; margin-top: 72px; height: 279px; }
+.trunkAnimation { width: 100%; position: relative; margin-top: 72px; height: 279px; }
 		
-.cityscape {
+.trunkAnimation-cityscape {
 	width: 100%;
-	background-image: url('http://romulobrasil.com/img/shipping-cityscape.png');
+	background-image: url('https://romulobrasil.com/img/shipping-cityscape.png');
 	background-repeat: repeat-x;
 	height: 279px;
 	position: absolute;
@@ -30,26 +30,28 @@
 	animation-iteration-count: infinite;
 }
 
-.wheels {
-	background-image: url('http://romulobrasil.com/img/shipping-wheels.png');
+.trunkAnimation-wheels {
+	background-image: url('https://romulobrasil.com/img/shipping-wheels.png');
 	width: 240px;
 	height: 51px;
 	position: absolute;
 	left: 50%;
 	top: 229px;
-	margin-left: -395px;
+    margin-left: -275px;
+	/*margin-left: -395px;*/
 	background-repeat: no-repeat;
 }
 
-.truck {
-	background-image: url('http://romulobrasil.com/img/shipping-truck.png');
+.trunkAnimation-truck {
+	background-image: url('https://romulobrasil.com/img/shipping-truck.png');
 	width: 308px;
 	height: 148px;
 	position: absolute;
 	background-repeat: no-repeat;
 	left: 50%;
 	top: 105px;
-	margin-left: -431px;
+    margin-left: -311px;
+	/*margin-left: -431px;*/
 	-webkit-animation-name: truck;
 	-moz-animation-name: truck;
 	-ms-animation-name: truck;
@@ -72,8 +74,8 @@
 	animation-iteration-count: infinite;
 }
 
-.lamposts {
-	background-image: url('http://romulobrasil.com/img/shipping-lamposts.png');
+.trunkAnimation-lamposts {
+	background-image: url('https://romulobrasil.com/img/shipping-lamposts.png');
 	width: 100%;
 	height: 216px;
 	position: absolute;
@@ -102,7 +104,7 @@
 	animation-iteration-count: infinite;
 }
 
-.road { width: 100%; height: 4px; background: #39444c; position: absolute; top: 275px; }	
+.trunkAnimation-road { width: 100%; height: 4px; background: #39444c; position: absolute; top: 275px; }	
 	
 /* KEYFRAMES */
 @-moz-keyframes cityscape {
